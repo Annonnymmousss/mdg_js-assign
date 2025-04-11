@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/index.css" type="text/css">
+</head>
+<body style="background: black;">
+    <div style="display: block; color: aliceblue; text-align: center; margin-top: 300px;">
+
+        <div>
+            <h1 style="font-size: 50px;">Enter URL</h1>
+        </div>
+        <div>
+            <form  action="/" method="POST">
+                <input name="url" placeholder="Enter URL" style="height: 30px; width: 500px; text-align: center; margin-bottom: 10px;">
+                <button style="height: 35px; width: 60px; text-align: center; margin-bottom: 10px;" type="submit">Submit</button>
+            </form>
+        </div>
+       
+        <% if (typeof hehe !== 'undefined') { %>
+            <p>You submitted: <%= hehe %></p>
+          <% } %>
+       
+
+    </div>
+    
+</body>
+</html>
